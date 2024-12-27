@@ -1,0 +1,31 @@
+{
+  "name": "github-activity-tracker",
+  "version": "1.0.0",
+  "description": "Roadmap.sh challenge 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arhyel24/Github-Activity-Tracker.git"
+  },
+  "keywords": [],
+  "author": "Enoch",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Arhyel24/Github-Activity-Tracker/issues"
+  },
+  "bin": {
+    "github-activity": "./index.js"
+  },
+  "homepage": "https://github.com/Arhyel24/Github-Activity-Tracker#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chalk": "^5.4.1",
+    "commander": "^12.1.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.3.0"
+  }
+}
